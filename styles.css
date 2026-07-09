@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(140, 248, 248);
+}
+.tutorialtext{
+    font-family: sans-serif;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: sans-serif;
+}
+#speed1{
+    color:rgb(0, 0, 0);
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+#speed1::placeholder{
+    color: rgb(226, 226, 226);
+}
+#speed2{
+    color:rgb(0, 0, 0);
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+#speed2::placeholder{
+    color: rgb(226, 226, 226);
+}
+
+.player1{
+    background-color: black;
+    position: absolute;
+    top: 40%;
+    width: 40px;
+    height: 40px;
+}
+.player2{
+    background-color: black;
+    position: absolute;
+    top: 60%;
+    width: 40px;
+    height: 40px; 
+}
