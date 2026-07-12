@@ -6,13 +6,6 @@ const winner = document.getElementById("winner");
 // die zwei schwarzen boxen
 const player1 = document.querySelector(".player1");
 const player2 = document.querySelector(".player2");
-const mathQuestions = {
-    "1+1": 2,
-    "3*3": 9,
-    "5*5": 25,
-    "2-1": 1,
-    "2/2": 1
-}
 // geschwindigkeit in px per second
 let speedplayer1 = 0;
 let speedplayer2 = 0;
