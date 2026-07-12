@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(140, 248, 248);
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: sans-serif;
+}
+.tutorialtext{
+    font-family: sans-serif;
+}
+#winner{
+    font-family: sans-serif;
+}
+.Alert{
+    color: red;
+    font-family: sans-serif;
+    position: absolute;
+    top: 16%;
+}
+#alertplayer1{
+    left: 7px;
+}
+#Alertplayer2{
+    left: 212px;
+}
+#MathQuestionplayer1,
+#MathQuestionplayer2{
+    color:rgb(0, 0, 0);
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    position: absolute;
+    top: 20%;
+}
+#MathQuestionplayer1{
+    left: 7px;
+}
+#MathQuestionplayer2{
+    left: 212px;
+}
+#MathQuestionplayer1::placeholder,
+#MathQuestionplayer2::placeholder{
+    color: rgb(226, 226, 226);
+}
+#speed1,
+#speed2{
+    color:rgb(0, 0, 0);
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+#speed1::placeholder,
+#speed2::placeholder{
+    color: rgb(226, 226, 226);
+}
+.player1{
+    background-color: black;
+    position: absolute;
+    top: 40%;
+    width: 40px;
+    height: 40px;
+}
+.player2{
+    background-color: black;
+    position: absolute;
+    top: 60%;
+    width: 40px;
+    height: 40px; 
+}
